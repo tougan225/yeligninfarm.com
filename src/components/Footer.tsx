@@ -11,18 +11,13 @@ const Footer: React.FC = () => {
           <div className="md:col-span-1">
             <div className="flex items-center space-x-3 mb-4">
           {/* Logo */}
-              <a href="accueil" className="flex items-center space-x-3">
+              <a href="#" className="flex items-center space-x-3">
                 <img
                   src={logoImage}
                   alt="Logo Yelignin Farm"
-                  className="h-12 w-auto"
+                  className="h-16 w-auto"
                 />
               </a>
-
-              <div>
-                <h3 className="text-xl font-bold">Yelignin Farm</h3>
-                <p className="text-sm text-green-200">Coopérative Agricole</p>
-              </div>
             </div>
             <p className="text-green-200 text-sm leading-relaxed">
               Depuis plus de 25 ans, nous produisons et commercialisons 

@@ -24,23 +24,19 @@ const Header: React.FC<HeaderProps> = ({ currentSection, onSectionChange }) => {
         <div className="flex justify-between items-center py-4">
           
           {/* Logo */}
-            <div className="flex items-center space-x-3 cursor-pointer">
-              <button
-                onClick={() => onSectionChange("accueil")}
-                className="focus:outline-none"
-              >
-                <img
-                  src={logoImage}
-                  alt="Logo Yelignin Farm"
-                  className="h-12 w-auto"
-                />
-              </button>
-            </div>
+          <div className="flex items-center space-x-3 cursor-pointer">
+            <button
+              onClick={() => onSectionChange("accueil")}
+              className="focus:outline-none"
+            >
+              <img
+                src={logoImage}
+                alt="Logo Yelignin Farm"
+                className="h-20 w-auto"
+              />
+            </button>
+          </div>
 
-            <div>
-              <h1 className="text-xl font-bold text-green-800">Yelignin Farm</h1>
-              <p className="text-sm text-green-600">Coopérative Agricole</p>
-            </div>
 
           {/* Navigation Desktop */}
           <nav className="hidden md:flex space-x-8">
