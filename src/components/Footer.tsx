@@ -1,6 +1,6 @@
 import React from 'react';
 import { Wheat, Phone, Mail, MapPin, Facebook, Instagram, Linkedin } from 'lucide-react';
-import logoImage from "@/assets/logo.jpg";
+import logoImage from "@/assets/logofooter.png";
 
 const Footer: React.FC = () => {
   return (

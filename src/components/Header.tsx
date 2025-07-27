@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Wheat, Menu, X, Phone, Whatsapp  } from 'lucide-react';
-import logoImage from "@/assets/logo.jpg";
+import logoImage from "@/assets/logo.png";
 
 interface HeaderProps {
   currentSection: string;
